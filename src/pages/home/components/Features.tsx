@@ -10,34 +10,34 @@ export function Features() {
         </div>
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-3">
-          <div className="rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
-            <div className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100" />
-            <div>
+          <div className="flex flex-col rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
+            <div style={{backgroundImage: 'url(/src/assets/img/img-1.webp)'}} className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100 bg-cover bg-center" />
+            <div className="flex flex-col flex-1">
               <h3 className="text-lg font-semibold text-gray-900">Genera facturas electrónicas válidas</h3>
               <p className="mt-2 text-sm text-gray-600">Crea documentos que cumplen normativas sin esfuerzo adicional.</p>
-              <button className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
+              <button className="mt-auto pt-4 cursor-pointer inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
                 Más <MdKeyboardArrowRight />
               </button>
             </div>
           </div>
 
-          <div className="rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
-            <div className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100" />
-            <div>
+          <div className="flex flex-col rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
+            <div style={{backgroundImage: 'url(/src/assets/img/img-2.png)'}} className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100 bg-cover bg-center" />
+            <div className="flex flex-col flex-1">
               <h3 className="text-lg font-semibold text-gray-900">Organiza tus registros de forma clara</h3>
               <p className="mt-2 text-sm text-gray-600">Mantén un control total sobre cada transacción y documento generado.</p>
-              <button className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
+              <button className="mt-auto pt-4 cursor-pointer inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
                 Más <MdKeyboardArrowRight />
               </button>
             </div>
           </div>
 
-          <div className="rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
-            <div className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100" />
-            <div>
+          <div className="flex flex-col rounded-lg border border-gray-200 bg-white p-5 sm:p-6 shadow-sm hover:shadow transition-shadow">
+            <div style={{backgroundImage: 'url(/src/assets/img/img-3.png)'}} className="mb-4 h-36 sm:h-40 w-full rounded-md bg-slate-100 bg-cover bg-center" />
+            <div className="flex flex-col flex-1">
               <h3 className="text-lg font-semibold text-gray-900">Conecta con tus sistemas existentes</h3>
               <p className="mt-2 text-sm text-gray-600">Trabaja sin interrupciones con las herramientas que ya utilizas.</p>
-              <button className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
+              <button className="mt-auto pt-4 cursor-pointer inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
                 Más <MdKeyboardArrowRight />
               </button>
             </div>

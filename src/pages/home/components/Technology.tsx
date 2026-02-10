@@ -12,7 +12,7 @@ export function Technology() {
               Construido con herramientas modernas y confiables
             </h2>
             <p className="mt-3 text-gray-600">
-              FacturaLink utiliza frameworks actuales y bases de datos robustas para garantizar velocidad y seguridad en cada transacción. La arquitectura fue diseñada pensando en clínicas que necesitan un sistema estable, sin demoras, que funcione cuando más lo requieres.
+              Bill Bot Technology utiliza frameworks actuales y bases de datos robustas para garantizar velocidad y seguridad en cada transacción. La arquitectura fue diseñada pensando en clínicas que necesitan un sistema estable, sin demoras, que funcione cuando más lo requieres.
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-4 text-gray-800">
               <span className="inline-flex items-center gap-2 rounded border border-gray-200 px-3 py-2 text-sm font-medium">
@@ -31,7 +31,7 @@ export function Technology() {
           </div>
 
           <div>
-            <div className="h-64 sm:h-72 lg:h-80 w-full rounded-lg bg-slate-100" />
+            <div style={{backgroundImage: 'url(/src/assets/img/gif-code.webp)'}} className="h-64 sm:h-72 lg:h-80 w-full rounded-lg bg-slate-100 bg-cover bg-center" />
           </div>
         </div>
       </div>

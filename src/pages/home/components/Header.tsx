@@ -51,28 +51,28 @@ export function Header() {
 
         <ul className="hidden md:flex items-center gap-6 text-sm">
           <li>
-            <button className="text-gray-700 hover:text-sky-600 transition-colors" onClick={() => scrollToId('inicio')}>Inicio</button>
+            <button className="text-gray-700 cursor-pointer hover:text-sky-600 transition-colors" onClick={() => scrollToId('inicio')}>Inicio</button>
           </li>
           <li>
-            <button className="text-gray-700 hover:text-sky-600 transition-colors" onClick={() => scrollToId('acerca')}>Acerca de</button>
+            <button className="text-gray-700 cursor-pointer hover:text-sky-600 transition-colors" onClick={() => scrollToId('acerca')}>Acerca de</button>
           </li>
           <li>
-            <button className="text-gray-700 hover:text-sky-600 transition-colors" onClick={() => scrollToId('tecnologias')}>Tecnologías</button>
+            <button className="text-gray-700 cursor-pointer hover:text-sky-600 transition-colors" onClick={() => scrollToId('tecnologias')}>Tecnologías</button>
           </li>
           <li>
-            <button className="text-gray-700 hover:text-sky-600 transition-colors" onClick={() => scrollToId('contacto')}>Contacto</button>
+            <button className="text-gray-700 cursor-pointer hover:text-sky-600 transition-colors" onClick={() => scrollToId('contacto')}>Contacto</button>
           </li>
         </ul>
 
         <div className="hidden sm:flex items-center gap-3">
           <button
-            className="h-9 px-4 rounded border border-gray-300 text-sm font-medium hover:bg-gray-50 transition-colors"
+            className="h-9 px-4 cursor-pointer rounded border border-gray-300 text-sm font-medium hover:bg-gray-50 transition-colors"
             onClick={() => navigate("/login")}
           >
             Iniciar Sesión
           </button>
           <button
-            className="h-9 px-4 rounded bg-sky-600 text-white text-sm font-medium hover:bg-sky-700 transition-colors"
+            className="h-9 px-4 cursor-pointer rounded bg-sky-600 text-white text-sm font-medium hover:bg-sky-700 transition-colors"
             onClick={() => navigate("/sign-up")}
           >
             Registrarse
@@ -109,8 +109,8 @@ export function Header() {
             <li><button className="w-full text-left px-3 py-2 rounded hover:bg-gray-100" onClick={() => { setMenuOpen(false); scrollToId('contacto'); }}>Contacto</button></li>
           </ul>
           <div className="mt-4 flex items-center gap-2">
-            <button className="flex-1 h-9 px-3 rounded border border-gray-300 text-sm font-medium hover:bg-gray-50" onClick={() => { setMenuOpen(false); navigate('/login'); }}>Ingresar</button>
-            <button className="flex-1 h-9 px-3 rounded bg-sky-600 text-white text-sm font-medium hover:bg-sky-700" onClick={() => { setMenuOpen(false); navigate('/sign-up'); }}>Registrarse</button>
+            <button className="flex-1 h-9 px-3 hover:cursor-pointer rounded border border-gray-300 text-sm font-medium hover:bg-gray-50" onClick={() => { setMenuOpen(false); navigate('/login'); }}>Ingresar</button>
+            <button className="flex-1 h-9 px-3 hover:cursor-pointer rounded bg-sky-600 text-white text-sm font-medium hover:bg-sky-700" onClick={() => { setMenuOpen(false); navigate('/sign-up'); }}>Registrarse</button>
           </div>
         </nav>
       </div>

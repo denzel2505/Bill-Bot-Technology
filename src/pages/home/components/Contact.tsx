@@ -1,7 +1,6 @@
 import {
   MdOutlineEmail,
   MdOutlinePhone,
-  MdKeyboardArrowRight,
 } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
@@ -43,9 +42,6 @@ export function Contact() {
                   <p className="text-sm text-gray-600">Cartagena, Colombia</p>
                 </div>
               </div>
-              <button className="inline-flex items-center gap-1 text-sm font-medium text-sky-700 hover:text-sky-800">
-                Ver ubicación <MdKeyboardArrowRight />
-              </button>
             </div>
           </div>
 
