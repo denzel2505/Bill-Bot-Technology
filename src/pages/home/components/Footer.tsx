@@ -16,10 +16,10 @@ export function Footer() {
             className="h-6 sm:h-7 md:h-8 lg:h-9 w-auto max-w-40 object-contain shrink-0"
           />
           <ul className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-700">
-            <li><button className="hover:text-sky-700 transition-colors" onClick={() => scrollToId('inicio')}>Inicio</button></li>
-            <li><button className="hover:text-sky-700 transition-colors" onClick={() => scrollToId('acerca')}>Acerca de</button></li>
-            <li><button className="hover:text-sky-700 transition-colors" onClick={() => scrollToId('tecnologias')}>Tecnologías</button></li>
-            <li><button className="hover:text-sky-700 transition-colors" onClick={() => scrollToId('contacto')}>Contacto</button></li>
+            <li><button className="hover:text-sky-700 cursor-pointer transition-colors" onClick={() => scrollToId('inicio')}>Inicio</button></li>
+            <li><button className="hover:text-sky-700 cursor-pointer transition-colors" onClick={() => scrollToId('acerca')}>Acerca de</button></li>
+            <li><button className="hover:text-sky-700 cursor-pointer transition-colors" onClick={() => scrollToId('tecnologias')}>Tecnologías</button></li>
+            <li><button className="hover:text-sky-700 cursor-pointer transition-colors" onClick={() => scrollToId('contacto')}>Contacto</button></li>
           </ul>
         </div>
 

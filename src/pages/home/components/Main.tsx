@@ -4,7 +4,7 @@ import {useNavigate} from "react-router-dom";
 export function Main() {
   const navigate = useNavigate();
   return (
-    <main id="inicio" className="w-full bg-slate-50">
+    <main id="inicio" className="w-full bg-slate-50 mt-10 mb-10">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-28 text-center">
         <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
           Facturación electrónica simple y directa

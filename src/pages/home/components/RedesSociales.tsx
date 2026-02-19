@@ -8,7 +8,7 @@ export function RedesSociales() {
             <section className="w-full bg-white">
                 <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-12 sm:py-16 text-center">
                     <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900">
-                        Síguenos en redes sociales
+                        Contactame en redes sociales
                     </h2>
                     <div className="mt-6 sm:mt-8 flex flex-wrap items-center justify-center gap-4 sm:gap-6">
                         <button aria-label="Facebook" className="inline-flex h-11 w-11 items-center justify-center rounded-full border border-gray-200 text-gray-700 hover:text-sky-700 hover:border-sky-300 transition-colors">
